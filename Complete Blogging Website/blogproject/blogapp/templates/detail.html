@@ -1,0 +1,14 @@
+
+{%extends 'base.html' %}
+{% block content %}
+<div class="container">
+<dl>
+<dt>Title</dt>
+<dd>{{ post.title }}</dd>
+<dt>Publish Date</dt>
+<dd>{{ post.pubDate }}</dd>
+<dt>Brief Description</dt>
+<dd>{{ post.description }}</dd>
+</dl>
+</div>
+{% endblock %}
